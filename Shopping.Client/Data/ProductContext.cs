@@ -47,7 +47,7 @@ namespace Shopping.Client.Data
             ImageFile = "aanfgnsd.png",
             Category = "asnfgnd"
             }
-
+            //this is a new comment for creating the QA branch
 
         };
     }

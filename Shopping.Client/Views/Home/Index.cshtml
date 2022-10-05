@@ -1,8 +1,32 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    List<string> listtt = new List<string>();
+    listtt.Add("asdf1");
+    listtt.Add("asdf2");
+    listtt.Add("asdf3");
+    listtt.Add("asdf4");
+
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@foreach (string i in listtt)
+{
+    <br />
+    <div style="align-content:center; width:80%;padding: 10px; height: 360px;border-radius: 10px ;background-color:wheat">
+        <div style="width: 100%; height: 45px">
+
+        </div>
+        <div style="width: 100%; height: 100px">
+
+        </div>
+        <div style="width: 100%; height: 35px">
+
+        </div>
+        <div style="width: 100%; height: 160px">
+
+        </div>
+    @*<h1 class="display-6">@i</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+    </div>
+    <br />
+}
+
